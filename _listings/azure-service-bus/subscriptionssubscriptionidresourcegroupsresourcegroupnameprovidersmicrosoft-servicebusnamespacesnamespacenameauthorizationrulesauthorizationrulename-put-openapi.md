@@ -3,8 +3,8 @@ swagger: "2.0"
 x-collection-name: Azure Service Bus
 x-complete: 0
 info:
-  title: Azure Service Bus API Namespaces Get Authorization Rule
-  description: Gets an authorization rule for a namespace by rule name.
+  title: Azure Service Bus API Namespaces Create Or Update Authorization Rule
+  description: Creates or updates an authorization rule for a namespace.
   version: 1.0.0
 host: management.azure.com
 basePath: /
@@ -29,32 +29,6 @@ paths:
         description: The shared access authorization rule
         schema:
           $ref: '#/definitions/holder'
-      responses:
-        200:
-          description: OK
-      tags:
-      - Namespaces Authorization Rule
-    delete:
-      summary: Namespaces Delete Authorization Rule
-      description: Deletes a namespace authorization rule.
-      operationId: Namespaces_DeleteAuthorizationRule
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-servicebusnamespacesnamespacenameauthorizationrulesauthorizationrulename-delete
-      parameters:
-      - in: query
-        name: No Name
-      responses:
-        200:
-          description: OK
-      tags:
-      - Namespaces Authorization Rule
-    get:
-      summary: Namespaces Get Authorization Rule
-      description: Gets an authorization rule for a namespace by rule name.
-      operationId: Namespaces_GetAuthorizationRule
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-servicebusnamespacesnamespacenameauthorizationrulesauthorizationrulename-get
-      parameters:
-      - in: query
-        name: No Name
       responses:
         200:
           description: OK

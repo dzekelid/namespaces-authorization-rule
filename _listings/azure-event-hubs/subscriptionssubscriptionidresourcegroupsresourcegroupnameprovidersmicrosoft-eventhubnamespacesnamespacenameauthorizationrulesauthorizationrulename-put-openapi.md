@@ -3,8 +3,8 @@ swagger: "2.0"
 x-collection-name: Azure Event Hubs
 x-complete: 0
 info:
-  title: Azure Event Hubs API Namespaces Delete Authorization Rule
-  description: Deletes an AuthorizationRule for a Namespace.
+  title: Azure Event Hubs API Namespaces Create Or Update Authorization Rule
+  description: Creates or updates an AuthorizationRule for a Namespace.
   version: 1.0.0
 host: management.azure.com
 basePath: /
@@ -29,19 +29,6 @@ paths:
         description: The shared access AuthorizationRule
         schema:
           $ref: '#/definitions/holder'
-      responses:
-        200:
-          description: OK
-      tags:
-      - Namespaces Authorization Rule
-    delete:
-      summary: Namespaces Delete Authorization Rule
-      description: Deletes an AuthorizationRule for a Namespace.
-      operationId: Namespaces_DeleteAuthorizationRule
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-eventhubnamespacesnamespacenameauthorizationrulesauthorizationrulename-delete
-      parameters:
-      - in: query
-        name: No Name
       responses:
         200:
           description: OK

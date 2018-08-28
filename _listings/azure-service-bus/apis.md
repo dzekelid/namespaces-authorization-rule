@@ -11,11 +11,22 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Namespaces Authorization Rule
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/namespaces-authorization-rule/master/_listings/azure-service-bus/apis.md
 specificationVersion: "0.14"
 apis:
+- name: ServiceBusManagementClient - Namespaces Create Or Update Authorization Rule
+  x-api-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-servicebusnamespacesnamespacenameauthorizationrulesauthorizationrulename-put
+  description: Creates or updates an authorization rule for a namespace.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-service-bus-anything.png
+  humanURL: https://azure.microsoft.com/en-us/services/service-bus/
+  baseURL: ://management.azure.com//
+  tags: Microsoft, Stack Network, API Service Provider, API Provider, Messages, Profiles,
+    Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/namespaces-authorization-rule/master/_listings/azure-service-bus/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-servicebusnamespacesnamespacenameauthorizationrulesauthorizationrulename-put-openapi.md
 - name: ServiceBusManagementClient - Namespaces Delete Authorization Rule
   x-api-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-servicebusnamespacesnamespacenameauthorizationrulesauthorizationrulename-delete
   description: Deletes a namespace authorization rule.

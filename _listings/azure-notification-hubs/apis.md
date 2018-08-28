@@ -9,11 +9,23 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Namespaces Authorization Rule
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/namespaces-authorization-rule/master/_listings/azure-notification-hubs/apis.md
 specificationVersion: "0.14"
 apis:
+- name: NotificationHubsManagementClient - Namespaces Create Or Update Authorization
+    Rule
+  x-api-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-notificationhubsnamespacesnamespacenameauthorizationrulesauthorizationrulename-put
+  description: Creates an authorization rule for a namespace
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-notification-hubs.png
+  humanURL: https://docs.microsoft.com/en-us/azure/notification-hubs/
+  baseURL: ://management.azure.com//
+  tags: Notifications, Microsoft, Stack Network, API Service Provider, API Provider,
+    Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/namespaces-authorization-rule/master/_listings/azure-notification-hubs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-notificationhubsnamespacesnamespacenameauthorizationrulesauthorizationrulename-put-openapi.md
 - name: NotificationHubsManagementClient - Namespaces Delete Authorization Rule
   x-api-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-notificationhubsnamespacesnamespacenameauthorizationrulesauthorizationrulename-delete
   description: Deletes a namespace authorization rule

@@ -10,11 +10,22 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Namespaces Authorization Rule
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/namespaces-authorization-rule/master/_listings/azure-event-hubs/apis.md
 specificationVersion: "0.14"
 apis:
+- name: EventHubManagementClient - Namespaces Create Or Update Authorization Rule
+  x-api-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-eventhubnamespacesnamespacenameauthorizationrulesauthorizationrulename-put
+  description: Creates or updates an AuthorizationRule for a Namespace.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-event-hubs-stream.png
+  humanURL: https://azure.microsoft.com/en-us/services/event-hubs/
+  baseURL: ://management.azure.com//
+  tags: Microsoft, Jobs, Orchestration, Stack Network, API Service Provider, API Provider,
+    SDIO Competition, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/namespaces-authorization-rule/master/_listings/azure-event-hubs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-eventhubnamespacesnamespacenameauthorizationrulesauthorizationrulename-put-openapi.md
 - name: EventHubManagementClient - Namespaces Delete Authorization Rule
   x-api-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-eventhubnamespacesnamespacenameauthorizationrulesauthorizationrulename-delete
   description: Deletes an AuthorizationRule for a Namespace.

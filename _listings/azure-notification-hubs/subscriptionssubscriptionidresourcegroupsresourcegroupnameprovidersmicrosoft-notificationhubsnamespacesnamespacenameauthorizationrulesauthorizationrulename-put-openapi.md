@@ -3,8 +3,8 @@ swagger: "2.0"
 x-collection-name: Azure Notification Hubs
 x-complete: 0
 info:
-  title: Azure Notification Hubs API Namespaces Delete Authorization Rule
-  description: Deletes a namespace authorization rule
+  title: Azure Notification Hubs API Namespaces Create Or Update Authorization Rule
+  description: Creates an authorization rule for a namespace
   version: 1.0.0
 host: management.azure.com
 basePath: /
@@ -35,28 +35,6 @@ paths:
         description: The shared access authorization rule
         schema:
           $ref: '#/definitions/holder'
-      - in: path
-        name: resourceGroupName
-        description: The name of the resource group
-      responses:
-        200:
-          description: OK
-      tags:
-      - Namespaces Authorization Rule
-    delete:
-      summary: Namespaces Delete Authorization Rule
-      description: Deletes a namespace authorization rule
-      operationId: Namespaces_DeleteAuthorizationRule
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-notificationhubsnamespacesnamespacenameauthorizationrulesauthorizationrulename-delete
-      parameters:
-      - in: path
-        name: authorizationRuleName
-        description: Authorization Rule Name
-      - in: path
-        name: namespaceName
-        description: The namespace name
-      - in: query
-        name: No Name
       - in: path
         name: resourceGroupName
         description: The name of the resource group

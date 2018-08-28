@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Azure Notification Hubs
 x-complete: 1
@@ -87,4 +86,3 @@ paths:
           description: OK
       tags:
       - Namespaces Authorization Rule
----
